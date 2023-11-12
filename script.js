@@ -12,6 +12,17 @@ var numb = "1234567890"
 var createdPassword = [];
 var userSelect = [];
 
+function generatePassword(){
+
+  var passwordSize = prompt("Enter a number between 8-128 for amount of password characters");
+
+  if (passwordSize < 8 || passwordSize > 128){
+    alert("Try again, please enter 8-128");
+    return
+  }
+
+
+}
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
