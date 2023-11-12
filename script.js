@@ -7,6 +7,11 @@ var lowerCase = "abcdefghijklmnopqrstuvwxyz"
 var upperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 var numb = "1234567890"
 
+// variables for user input and generation
+
+var createdPassword = [];
+var userSelect = [];
+
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
