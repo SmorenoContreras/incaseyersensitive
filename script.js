@@ -59,7 +59,15 @@ function generatePassword() {
       
     }
 
+    //this joins the spreaded characters
+    var joinedPass = createdPassword.join("");
+    console.log(joinedPass);
+    
+    //returns the generated password with characters joined from array
+    return joinedPass
 
+
+  }
 
 }
 
@@ -76,4 +84,4 @@ function writePassword() {
 }
 
 // Add event listener to generate button
-generateBtn.addEventListener("click", writePassword);
+generateBtn.addEventListener("click", writePassword)
